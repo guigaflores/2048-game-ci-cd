@@ -1,5 +1,5 @@
 # Use the official Nginx image as the base
-FROM nginx:latest
+FROM 008971670328.dkr.ecr.us-east-1.amazonaws.com/nginx
 
 # Copy the 2048 game files to the Nginx web root
 COPY . /usr/share/nginx/html
